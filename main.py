@@ -35,5 +35,3 @@ listener = keyboard.Listener(
     on_release= release,
     suppress= True)
 listener.start()
-
-print("lol")
