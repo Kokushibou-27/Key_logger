@@ -1,5 +1,7 @@
 from pynput import keyboard
 
+logs_file = "log_file.txt"
+
 def press(key):
     try:
         print('{0}'.format(key.char), end="", flush=True)
